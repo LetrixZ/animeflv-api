@@ -1,0 +1,66 @@
+{
+  "name": "animeflv",
+  "version": "1.2.0",
+  "description": "Animeflv is a custom API that has the entire catalog of the animeflv.net website. You can enjoy all the content with subtitles in Spanish and the latest in the world of anime for free.",
+  "main": "./src/api/api.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "animeflv",
+    "animeflv api",
+    "anime",
+    "anime api"
+  ],
+  "author": {
+    "name": "Jéluchu",
+    "email": "infoaruppi@gmail.com",
+    "reason": "Android Developer and Others",
+    "url": "https://jeluchu.github.io/",
+    "social": {
+      "github": "https://github.com/Jeluchu",
+      "twitter": "https://twitter.com/Jeluchu"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Chris Michael",
+      "url": "https://github.com/ChrisMichaelPerezSantiago",
+      "reason": "Project Leader, and Developer"
+    },
+    {
+      "name": "Jéluchu",
+      "reason": "Android Developer and Others",
+      "url": "https://jeluchu.github.io/"
+    },
+    {
+      "name": "Darkangeel",
+      "url": "https://github.com/Darkangeel-hd",
+      "reason": "System administration authority (SYSADM)"
+    }
+  ],
+  "engines": {
+    "node": ">= 12.x",
+    "npm": ">= 6.14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aruppi/animeflv.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cheerio-tableparser": "^1.0.1",
+    "compose-middleware": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "got": "^11.8.0",
+    "helmet": "^4.1.1",
+    "tough-cookie": "^4.0.0",
+    "urldecode": "^1.0.1"
+  }
+}
